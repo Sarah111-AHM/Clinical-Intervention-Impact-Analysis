@@ -1,10 +1,10 @@
-# 🏥 Clinical Intervention Analysis
+# Clinical Intervention Analysis
 
 A fully professional data science project for analysing clinical trial data comparing **Control** and **Intervention** patient groups. Includes end-to-end analysis pipelines, statistical testing, machine learning models, and an interactive Streamlit web application.
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyses a clinical dataset of **120 patients** (67 Control, 53 Intervention) to:
 
@@ -25,7 +25,7 @@ This project analyses a clinical dataset of **120 patients** (67 Control, 53 Int
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 clinical_intervention/
@@ -57,7 +57,7 @@ clinical_intervention/
 
 ---
 
-## 🚀 Quick Start — Run Locally
+## Quick Start — Run Locally
 
 ### 1. Clone & install
 
@@ -95,7 +95,7 @@ jupyter notebook notebooks/clinical_analysis.ipynb
 
 ---
 
-## 🧠 Machine Learning Models
+## Machine Learning Models
 
 Three classifiers are trained with **5-fold stratified cross-validation** and **GridSearchCV** hyperparameter tuning:
 
@@ -119,19 +119,19 @@ Three classifiers are trained with **5-fold stratified cross-validation** and **
 
 ---
 
-## 🌐 Web Application Features
+## Web Application Features
 
 The Streamlit dashboard includes:
 
-- **📊 Overview** — data quality report, descriptive stats, group comparison table
-- **📈 EDA Visualisations** — interactive Plotly histograms, boxplots, scatter plots, heatmap
-- **🔬 Statistical Tests** — Welch t-test and chi-square results with significance flags
-- **🤖 ML Models** — train, compare, and evaluate models interactively
-- **🎯 Patient Predictions** — enter patient data to get a real-time complication risk score
+- **Overview** — data quality report, descriptive stats, group comparison table
+- ** EDA Visualisations** — interactive Plotly histograms, boxplots, scatter plots, heatmap
+- **Statistical Tests** — Welch t-test and chi-square results with significance flags
+- ** ML Models** — train, compare, and evaluate models interactively
+- **Patient Predictions** — enter patient data to get a real-time complication risk score
 
 ---
 
-## ☁️ Deploy on Streamlit Community Cloud (Free)
+## Deploy on Streamlit Community Cloud (Free)
 
 > Streamlit Community Cloud is the recommended free deployment option. Vercel is designed for Node.js apps; Streamlit apps deploy best on Streamlit Cloud.
 
@@ -173,7 +173,7 @@ Then deploy via Vercel's Docker support or use **Railway** / **Render** for the 
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Library | Version | Purpose |
 |---------|---------|---------|
@@ -187,7 +187,7 @@ Then deploy via Vercel's Docker support or use **Railway** / **Render** for the 
 
 ---
 
-## 📌 Dataset Description
+## Dataset Description
 
 | Column | Type | Description |
 |--------|------|-------------|
@@ -206,6 +206,6 @@ Then deploy via Vercel's Docker support or use **Railway** / **Render** for the 
 
 ---
 
-## 📜 License
+##  License
 
 MIT — free to use and modify.
