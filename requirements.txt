@@ -1,0 +1,24 @@
+# Clinical Intervention Analysis — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core data science
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine learning
+scikit-learn>=1.3.0
+xgboost>=1.7.0          # optional – app falls back to GradientBoostingClassifier
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Web application
+streamlit>=1.28.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
+nbformat>=5.9.0
